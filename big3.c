@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void biggest3() 
 {
     int a, b, c;
@@ -6,6 +7,7 @@ void biggest3()
     printf("\nEnter three numbers a, b and c: ");
     scanf("%d %d %d", &a, &b, &c);
 
+    
     if(a >= b && a >= c) 
         printf("The biggest number is %d\n", a);
     
